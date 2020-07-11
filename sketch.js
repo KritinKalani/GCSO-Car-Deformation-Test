@@ -22,7 +22,7 @@ function draw() {
 
 car.velocityX = speed;
 
-car.collide(brickWall);
+//car.collide(brickWall);
 
 if(brickWall.x-car.x < car.width/2 + brickWall.width/2) {
   car.velocityX = 0;
